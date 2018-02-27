@@ -1,4 +1,3 @@
-\section{Communication ordinateur-robot}
 
 Dans une démarche expérimentale, il est souvent requis d'implémenter les algorithmes développés, dans un environnement tel que Matlab, sur des systèmes robotiques déjà existants. 
 La solution couramment utilisée est d'employer un nœud de calcul QNX sur lequel RTLAB est installé. 
@@ -8,14 +7,14 @@ Ceci motive alors la recherche d'alternatives permettant l'utilisation directe d
 L'objectif étant de permettre l'utilisation de différents langage de programmation pour minimiser le temps d'adaptation. 
 Une solution permettant l'utilisation du code Matlab, python, c++ et autre est alors mise sur pied.
 
-\subsection{Mise en contexte}
+\section{Mise en contexte}
 
 Les solutions présentées dans ce rapport répondent toutes au besoin d'utiliser le code directement sur un montage robotique. 
 Cependant, elle présentent toutes différents avantage et inconvénient. 
 Comme processus de validation, le solutions ont été testées en répondant à la même problématique: l'utilisation d'un bras Jaco de Kinova directement par l'entremise de la connexion usb.
 
 
-\subsection{Définition des objectifs}
+\section{Définition des objectifs}
 
 Différents critères doivent être rencontrés pour qu'une solution soit acceptable et remplace le système déjà en place.
 
@@ -26,7 +25,7 @@ Différents critères doivent être rencontrés pour qu'une solution soit accept
 \item Permettre une grande flexibilité dans le type de commandes qu'un utilisateur peut envoyer. (commandes articulaires, cartésiennes, force, etc.)
 \end{enumerate}
 
-\subsection{Solution de contrôle du bras Jaco développée sous Windows}
+\section{Solution de contrôle du bras Jaco développée sous Windows}
 
 Sachant que Windows est le système d'exploitation majoritairement utilisé au sein du laboratoire de robotique de l'université Laval, le besoin de développer une solution compatible Windows a été identifié. 
 La stratégie employée est représenté dans la Figure \ref{fig:diag}.
@@ -47,41 +46,41 @@ La solution à cet inconvénient est d'initier une instance Matlab via un un scr
 Cette instance Matlab pourra ensuite exécuter des commandes que le script c++ lui envoi, tel que l’exécution de fonctions Matlab.
 Par la suite, il suffit d'utiliser directement l'API de kinova pour envoyer des commandes.
 
-\subsubsection{Exemple d'implémentation}
+\subsection{Exemple d'implémentation}
 
 Différents composants doivent être mis en place pour réaliser l'implémentation.
 Le présent exemple permet de configure un projet visual studio pour contrôler un bras Jaco en communiquant avec Matlab.
-\paragraph{Visual Studio}
+\subsubsection{Visual Studio}
 Il est possible de télécharger \href{https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15}{VisualStudio} sur le site web des développeurs.
 
-\paragraph{Création d'un projet}
+\subsubsection{Création d'un projet}
 Un projet VisualStudio peut être créé en cliquant sur \textit{file/new/project} dans la fenêtre de visual studio.
 Ensuite, sélectionner \textit{Visual c++} dans le menu gauche de la nouvelle fenêtre et cliquez sur \textit{Empty Project}.
 Dans le bas de la fenêtre, il est possible de nommer le projet et sélectionner un répertoire.
 Le répertoire choisi sera référé comme étant le \textit{workspace} ou \textit{project direcotry} dans la pluspart des tutoriels en anglais.
 Tout ficher placé dans ce répertoire fera partie du projet et pourra être référé dans les scripts.
 
-\paragraph{Définition du fichier principal du projet}
+\subsubsection{Définition du fichier principal du projet}
 Pour être en mesure d'écrire le script, un fichier source doit être créé.
 Pour créer ce ficher, il faut cliquer droit sur l'item \textit{Source Files} dans l'arbre du projet situé à la droite de la fenêtre Visual Studio.
 Ensuite, il faut sélectionner \textit{add/new item} et cliquer sur \textit{c++ File}.
 Il est ensuite possible de nommer le fichier dans le bas de la fenêtre.
 
-\paragraph{Utilisation d'un joystick}
+\subsubsection{Utilisation d'un joystick}
 Pour être en mesure d'envoyer des commandes avec un joystick, la librairie \href{https://www.libsdl.org/release/SDL2-2.0.7.zip
 }{SDL2} doit être téléchargée.
 Bien sûr, si le projet ne requiert pas de contrôleur joystick, cette étape n'est pas nécessaire.
 Après avoir décompressé le dossier téléchargé, lire le fichier VisualC.html pour les instructions sur la démarche à suivre pour utiliser la libraire (en particulier la partie parlant de l'utilisation avec Visual Studio).
 Les détails de l'utilisation pratique de cette librairie seront couverts dans une section subséquentes.
 
-\paragraph{Lien avec Matlab}
+\subsubsection{Lien avec Matlab}
 
 La description de cette partie se fera en trois temps.
 Dans un premier temps, une explication des différentes composantes devant être mises en places pour monter l'environnement de développement sera présentée.
 Ensuite, l'installation des pilotes pour l'envoie de commandes au bras Jaco est expliquée.
 Finalement, une description de différentes parties du script permettant le contrôle du bras Jaco sera fait.
 
-\subparagraph{Environnement de travail} Les différentes librairies, exécutables et les entêtes (\textit{headers})  nécessaires à l'utilisation de Matlab via un script c++ sont disponible dans le répertoire retourné lorsque l'on envoie les commandes suivantes dans la console Matlab:
+\paragraph{Environnement de travail} Les différentes librairies, exécutables et les entêtes (\textit{headers})  nécessaires à l'utilisation de Matlab via un script c++ sont disponible dans le répertoire retourné lorsque l'on envoie les commandes suivantes dans la console Matlab:
 \begin{enumerate}
 \item fullfile(matlabroot,'bin','win64').
 \item fullfile(matlabroot,'extern','include'),
@@ -112,7 +111,7 @@ Il est accessible en entrant la commande:
 Il faut seulement copier-coller l'entièreté du script dans le fichier source (.cpp) du projet Visual Studio. Le clic sur le bouton \textit{Local Windows Debugger} lancera la compilation et devrait faire apparaitre un invité de commande. 
 La première compilation est normalement beaucoup plus longue que les compilations subséquente.
 
-\subparagraph{Installation de Kinova SDK}
+\paragraph{Installation de Kinova SDK}
 Pour être en mesure d'envoyer des commandes au robot jaco, il est nécessaire d'installer les pilotes fournis sur le site web de \href{https://drive.google.com/open?id=0B790iVm0vRTlRFNFRldIb2Jmbkk}{Kinova}.
 Suivant l'installation de Kinova SDK, des directives doivent être suivies pour que le robot soit bien reconnu par le système d'exploitation.
 Ces directives sont disponible dans le répertoire d'installation de \textit{KinovaSDK\textbackslash Guides\textbackslash Kinova SDK-User Guide} (souvent situé dans \textit{Program Files x86}).
@@ -123,17 +122,76 @@ Des exemples de scripts c++ sont aussi disponibles dans le répertoire \textit{K
 À la suite du test, il est maintenant possible de combiner les informations des deux tutoriels pour faire fonctionner des scripts matlab, transférer des données de l'environnement de travail matlab vers le \textit{stack} du programme c++ et vice versa.
 
 Dans cette section, un survol de l'implémentation de l'environnement de développement permettant le contrôle du bras Jaco sous Windows avec l'option d'utiliser des scripts Matlab a été présenté.
-Bien que seulement le bras Jaco a été mentionné, il est toutefois possible d'utiliser les API \textit{c++} d'autres systèmes robotiques tels que le bras UR5. 
+Bien que seulement le bras Jaco a été mentionné, il est toutefois possible d'utiliser les API \textit{c++} d'autres systèmes robotiques tels que les bras de Universal Robot. 
 Cependant, une autre option pour contrôler le bras UR5 sous windows est disponible.
 Cette dernière est présentée dans la section suivante.
 
-\subsection{Solution de contrôle du bras UR5 développée sous Windows}
+\section{Solution de contrôle du bras UR5 développée sous Windows}
+
+Le contrôle du bras UR5 sous windows présente quelques défis puisque la majorité des outils de développement pour cet équipement sont développés sur la plateforme Linux.
+Sachant que cette plateforme est souvent méconnue, la solution développée pour interagir avec le bras tentera de minimiser le travail requis avec Linux et fera le lien entre Matlab, URsim et un logiciel de visualisation ce nommant VRep. 
+Ce dernier permet l'insertion et la visualisation de différents objets dans l'environnement du robot puisque URsim ne peut que représenter le robot lui-même.
+Tout d'abord, cette section expliquera l'installation de URsim et les différentes fonctionnalités utiles à la mise en place de l'infrastructure.
+Ensuite, le moyen de communication entre Matlab et URsim sera décrit.
+Finalement, l'interaction avec le logiciel de visualisation VRep sera expliqué.
+
+\subsection{URsim et son utilisation}
+
+URsim permet l'interface avec un robot virtuel ou un robot réel connecté sur le réseau.
+Ce logiciel permet la programmation de routines de base ainsi que la définition de fonctions plus complexe permettant, entre autre, la communication UDP avec d'autre logiciels.
+URsim, en soit, n'est disponible que sur Linux.
+Cependant, sur le site web de l'entreprise \href{https://www.universal-robots.com/download/}{Universal Robots}, une machine virtuelle sur laquelle URsim est déjà installée est disponible.
+Ceci permet de conserver l'environnement de développement Windows en exécutant URsim dans une machine virtuelle Linux.
+Le logiciel avec lequel cette machine virtuelle a été utilisée pour l'environnement de développement a été VmWare.
+Après avoir suivi les instructions d'installation fournies avec les fichiers disponibles sur le site web de Universal Robots, il est possible de lancer URsim.
+L'interface initiale d'URsim est présente dans la Figure suivante:
+
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/interface_init.png}
+  \end{tabular}
+ \end{center}
+\caption{Interface initiale d'URsim}
+ \label{fig:ui_start}
+\end{figure}
+
+\begin{itemize}
+\item Le bouton \textit{RUN Program} permet de faire fonctionner des routines contenant différentes fonctions. Ces routines sont communément appelées \textit{URscript}. Ces scripts peuvent variés en complexité allant d'une simple séquence de positions à atteindre jusqu'à un programme complexe gérant de multiples sockets de communications UDP et répondant à des appels de fonctions listées dans la librairie d'URsim.
+\item Le bouton \textit{PROGRAM Robot} permet la rédaction ou la modification d'URscripts
+\item Le bouton \textit{SETUP robot} permet la modification de paramètres tels que l'adresse IP d'un robot réel qu'un utilisateur voudrait contrôler via l'instance d'URsim installée sur la machine virtuelle.
+\end{itemize}
+
+Quand un utilisateur charge un URscript, il appui alors sur \textit{PROGRAM ROBOT}, puis sur \textit{Load Program} (ou sur \textit{Empty program} si il n'y a pas de programmes déjà disponibles). Une fois cette opération complétée la fenêtre présente à la Figure \ref{fig:ui_programmation}. Ceci constitue l'interface de programmation d'URscripts. Un manuel de programmation URscript est inclue dans l'appendice A, cependant, pour le fonctionnement de l'environnement de développement tel que présenté, aucune programmation URscript ne sera nécessaire.
+
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/interface_prog.png}
+  \end{tabular}
+ \end{center}
+\caption{Interface de programmation d'URsim}
+ \label{fig:ui_programmation}
+\end{figure}
 
 
+\subsection{Lien URsim-Matlab}
+Comme mentionné précédemment, les URscripts peuvent gérer des sockets de communication UDP et utiliser des fonctions tirées de la librairie d'URsim. 
+C'est de cette manière qu'un URscript a été rédigé de manière a répondre à certaines commandes envoyée sous format texte par Matlab.
+Les fichiers URscripts en question sont disponible dans le dossier \textit{programs} du dépot github \href{https://github.com/wonwon0/sujet_special_gmc.git}{suivant}.
+Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le dossier \textit{programs} présent dans le répertoire d'instalation d'URsim par celui téléchargé depuis le répertoire github mentionné plus haut. La figure \ref{fig:programs} représente grosso modo l'endroit dans lequel il faut remplacer le dossier \textit{programs}.
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/programs.png}
+  \end{tabular}
+ \end{center}
+\caption{Emplacement du dossier \textit{programs}}
+ \label{fig:programs}
+\end{figure}
 
 
-
-
+\newpage
 
 
 

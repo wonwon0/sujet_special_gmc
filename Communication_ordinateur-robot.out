@@ -1,0 +1,7 @@
+\BOOKMARK [1][-]{section.1}{Communication ordinateur-robot}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Mise en contexte}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{D\351finition des objectifs}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Solution de contr\364le du bras Jaco d\351velopp\351e sous Windows}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Exemple d'impl\351mentation}{subsection.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.4}{Solution de contr\364le du bras UR5 d\351velopp\351e sous Windows}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.1}{URsim et son utilisation}{subsection.1.4}% 7

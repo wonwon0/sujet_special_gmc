@@ -6,7 +6,7 @@
 \usepackage{tikz}
 \usepackage{titlesec}
 \usepackage{hyperref}
-
+\usepackage{pdfpages}
 \titleclass{\subsubsubsection}{straight}[\subsection]
 
 \newcounter{subsubsubsection}[subsubsection]
@@ -53,4 +53,10 @@
  \begin{thebibliography}{}
  \bibitem{key1} First Reference...
  \end{thebibliography}
+ \newpage
+ \appendix
+\section{\\Manuel de programmation URscript} \label{app:URscript_manual}
+
+% the \\ insures the section title is centered below the phrase: Appendix A
+\includepdf[pages=-, offset=75 -75]{scriptmanual_en_3_1.pdf}
  \end{document} 
