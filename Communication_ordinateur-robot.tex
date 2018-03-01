@@ -1,4 +1,4 @@
-
+\section{Introduction}
 Dans une démarche expérimentale, il est souvent requis d'implémenter les algorithmes développés, dans un environnement tel que Matlab, sur des systèmes robotiques déjà existants. 
 La solution couramment utilisée est d'employer un nœud de calcul QNX sur lequel RTLAB est installé. 
 Ceci requiert un processus d'adaptation autant au niveau de l'utilisation du logiciel qu'au niveau de l'adaptation du code Matlab, python c++ déjà développé. 
@@ -79,7 +79,6 @@ La description de cette partie se fera en trois temps.
 Dans un premier temps, une explication des différentes composantes devant être mises en places pour monter l'environnement de développement sera présentée.
 Ensuite, l'installation des pilotes pour l'envoie de commandes au bras Jaco est expliquée.
 Finalement, une description de différentes parties du script permettant le contrôle du bras Jaco sera fait.
-
 \paragraph{Environnement de travail} Les différentes librairies, exécutables et les entêtes (\textit{headers})  nécessaires à l'utilisation de Matlab via un script c++ sont disponible dans le répertoire retourné lorsque l'on envoie les commandes suivantes dans la console Matlab:
 \begin{enumerate}
 \item fullfile(matlabroot,'bin','win64').
@@ -144,7 +143,9 @@ Cependant, sur le site web de l'entreprise \href{https://www.universal-robots.co
 Ceci permet de conserver l'environnement de développement Windows en exécutant URsim dans une machine virtuelle Linux.
 Le logiciel avec lequel cette machine virtuelle a été utilisée pour l'environnement de développement a été VmWare.
 Après avoir suivi les instructions d'installation fournies avec les fichiers disponibles sur le site web de Universal Robots, il est possible de lancer URsim.
-L'interface initiale d'URsim est présente dans la Figure suivante:
+Mais avant de lancer la machine virtuelle et d'utiliser URsim, il est très important de s'assurer que le contrôleur réseau de la machine vertuelle est en mode "bridged".
+Ceci permet à la machine virtuelle de se faire attribuer une adresse IP propre à elle même et rend possible la communication UDP entre Windows et la machine virtuelle.
+Suite au lancement de la machine virtuelle et d'URsim, l'interface initiale d'URsim vous est présentée (Figure \ref{fig:ui_start}).
 
 \begin{figure}
  \begin{center}
@@ -177,8 +178,13 @@ Quand un utilisateur charge un URscript, il appui alors sur \textit{PROGRAM ROBO
 
 \subsection{Lien URsim-Matlab}
 Comme mentionné précédemment, les URscripts peuvent gérer des sockets de communication UDP et utiliser des fonctions tirées de la librairie d'URsim. 
-C'est de cette manière qu'un URscript a été rédigé de manière a répondre à certaines commandes envoyée sous format texte par Matlab.
-Les fichiers URscripts en question sont disponible dans le dossier \textit{programs} du dépot github \href{https://github.com/wonwon0/sujet_special_gmc.git}{suivant}.
+En premier lieu, les manipulations requises dans le logiciel URsim lancé dans la machiner virtuelle seront décrites.
+Ensuite, les étapes à suivres dans l'environnement de développement Matlab sous windows seront expliquées.
+
+\subsubsection{URsim}
+
+C'est de cette manière qu'un URscript a été rédigé de manière à répondre à certaines commandes envoyées sous format texte par Matlab.
+Les fichiers URscripts en question sont disponibles dans le dossier \textit{programs} du dépot github \href{https://github.com/wonwon0/sujet_special_gmc.git}{suivant}.
 Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le dossier \textit{programs} présent dans le répertoire d'instalation d'URsim par celui téléchargé depuis le répertoire github mentionné plus haut. La figure \ref{fig:programs} représente grosso modo l'endroit dans lequel il faut remplacer le dossier \textit{programs}.
 \begin{figure}
  \begin{center}
@@ -190,8 +196,40 @@ Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le
  \label{fig:programs}
 \end{figure}
 
+Suivant le dépot du dossier \textit{programs} dans le répertoire d'URsim, il est possible d'ouvrir le programme portant le nom d'\textit{matlabcontrolV3.urp} après avoir sélectionner \textit{Load Program} tel que vu dans la Figure \ref{fig:ui_start}.
+
+Ensuite, il faut executer les deux étapes suivante:
+\begin{itemize}
+\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript, (visible en Figure \ref{ui_programmation}), pour qu'elle concorde avec l'adresse IP du controleur réseau Windows. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig.
+\item Sélectionner l'option \textit{Simulation} dans le bas de la fenêtre d'URsim.
+\item Appuyer sur le bouton \textit{Play} présent de le bas, au centre, de la fenêtre d'URsim.
+\end{itemize}
+
+Ces étapes lancent l'URscript sur un robot virtuel et permet l'écoute de commandes envoyées par Matlab.
+
+
+\subsubsection{Matlab}
+
 
 \newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
