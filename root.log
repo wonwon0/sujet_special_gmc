@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.26)  1 MAR 2018 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.26)  1 MAR 2018 14:37
 entering extended mode
 **./root.tex
 (root.tex
@@ -1107,7 +1107,7 @@ Overfull \hbox (4.5309pt too wide) in paragraph at lines 2--9
 [1
 
 {/home/phil/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-<"diag_fonc3".pdf, id=77, 1258.8782pt x 473.58516pt>
+<"diag_fonc3".pdf, id=81, 1258.8782pt x 473.58516pt>
 File: "diag_fonc3".pdf Graphic file (type pdf)
 <use "diag_fonc3".pdf>
 Package pdftex.def Info: "diag_fonc3".pdf  used on input line 35.
@@ -1142,104 +1142,62 @@ en-cies \OT1/cmr/m/n/10.95 l'entree sui-vante : \OT1/cmr/m/it/10.95 libmx.lib
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
  [4]
-<screenshots_tuto_ursim/interface_init.png, id=124, 678.28406pt x 461.47406pt>
+<screenshots_tuto_ursim/interface_init.png, id=121, 678.28406pt x 461.47406pt>
 File: screenshots_tuto_ursim/interface_init.png Graphic file (type png)
 <use screenshots_tuto_ursim/interface_init.png>
 Package pdftex.def Info: screenshots_tuto_ursim/interface_init.png  used on inp
-ut line 153.
-(pdftex.def)             Requested size: 339.14119pt x 230.73645pt.
-<screenshots_tuto_ursim/interface_prog.png, id=126, 679.03688pt x 459.21562pt>
+ut line 150.
+(pdftex.def)             Requested size: 271.3088pt x 184.58635pt.
+<screenshots_tuto_ursim/interface_prog.png, id=123, 679.03688pt x 459.21562pt>
 File: screenshots_tuto_ursim/interface_prog.png Graphic file (type png)
 <use screenshots_tuto_ursim/interface_prog.png>
 Package pdftex.def Info: screenshots_tuto_ursim/interface_prog.png  used on inp
-ut line 171.
-(pdftex.def)             Requested size: 339.51761pt x 229.60724pt.
+ut line 168.
+(pdftex.def)             Requested size: 237.66646pt x 160.72787pt.
+<screenshots_tuto_ursim/programs.png, id=126, 545.03625pt x 422.32782pt>
+File: screenshots_tuto_ursim/programs.png Graphic file (type png)
+<use screenshots_tuto_ursim/programs.png>
+Package pdftex.def Info: screenshots_tuto_ursim/programs.png  used on input lin
+e 189.
+(pdftex.def)             Requested size: 218.01064pt x 168.92813pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.183 
+l.195 
        <./screenshots_tuto_ursim/interface_init.png>]
-<screenshots_tuto_ursim/programs.png, id=135, 545.03625pt x 422.32782pt>
-File: screenshots_tuto_ursim/programs.png Graphic file (type png)
-<use screenshots_tuto_ursim/programs.png>
-Package pdftex.def Info: screenshots_tuto_ursim/programs.png  used on input lin
-e 192.
-(pdftex.def)             Requested size: 272.51746pt x 211.16339pt.
-
-
-LaTeX Warning: Reference `ui_programmation' on page 6 undefined on input line 2
-03.
-
-
-Overfull \hbox (175.47195pt too wide) in paragraph at lines 214--219
-[]\OT1/cmr/m/n/10.95 asdfasdfasdfffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffasdvads ad-sfv-casffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffff
- []
-
-
-Overfull \hbox (208.59831pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 adfs sssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssss asd ffffffffffffffffffffffff asd-fasd-fasdffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffasdvads
- []
-
-
-Overfull \hbox (132.92154pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 ad-sfv-casffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffff adfs ssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssss
- []
-
-
-Overfull \hbox (255.86629pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 asd ffffffffffffffffffffffff asd-fasd-fasdffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffasdvads ad-sfv-casfffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
- []
-
-
-Overfull \hbox (208.59831pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 adfs sssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssss asd ffffffffffffffffffffffff asd-fasd-fasdffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffasdvads
- []
-
-
-Overfull \hbox (132.92154pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 ad-sfv-casffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffff adfs ssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssss
- []
-
-
-Overfull \hbox (255.86629pt too wide) in paragraph at lines 214--219
-\OT1/cmr/m/n/10.95 asd ffffffffffffffffffffffff asd-fasd-fasdffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffasdvads ad-sfv-casfffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
- []
-
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
-has been already used, duplicate ignored
+<screenshots_tuto_ursim/windows_ip.png, id=135, 566.86781pt x 129.48375pt>
+File: screenshots_tuto_ursim/windows_ip.png Graphic file (type png)
+<use screenshots_tuto_ursim/windows_ip.png>
+Package pdftex.def Info: screenshots_tuto_ursim/windows_ip.png  used on input l
+ine 207.
+(pdftex.def)             Requested size: 283.43321pt x 64.7417pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.219 
-       <./screenshots_tuto_ursim/interface_prog.png>] [7pdfTeX warning (ext4): 
-destination with the same identifier (name{figure.4}) has been already used, du
-plicate ignored
+l.220 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.220 \newpage
-               <./screenshots_tuto_ursim/programs.png>]) [8]
+l.220 
+       <./screenshots_tuto_ursim/interface_prog.png> <./screenshots_tuto_ursim/
+programs.png>] [7pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.222 \newpage
+               <./screenshots_tuto_ursim/windows_ip.png>]) [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 58.
 
-<scriptmanual_en_3_1.pdf, id=155, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=154, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 61.
@@ -1248,7 +1206,7 @@ File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 61.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<scriptmanual_en_3_1.pdf, id=158, page=1, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=157, page=1, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 1>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 61.
@@ -1276,7 +1234,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [10 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=174, page=2, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=173, page=2, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 2>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 61.
@@ -1293,7 +1251,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [11 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=194, page=3, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=193, page=3, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 3>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 61.
@@ -1310,7 +1268,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [12 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=204, page=4, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=203, page=4, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 4>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 61.
@@ -1327,7 +1285,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [13 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=215, page=5, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=214, page=5, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 5>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 61.
@@ -1344,7 +1302,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [14 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=220, page=6, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=219, page=6, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 6>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 61.
@@ -1361,7 +1319,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [15 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=225, page=7, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=224, page=7, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 7>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 61.
@@ -1378,7 +1336,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [16 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=230, page=8, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=229, page=8, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 8>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 61.
@@ -1396,7 +1354,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 61.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [17 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=235, page=9, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=234, page=9, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 9>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 61.
@@ -1413,7 +1371,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 61.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [18 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=240, page=10, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=239, page=10, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 10>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 61
@@ -1430,7 +1388,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [19 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=251, page=11, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=250, page=11, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 11>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 61
@@ -1447,7 +1405,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [20 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=256, page=12, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=255, page=12, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 12>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 61
@@ -1464,7 +1422,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [21 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=261, page=13, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=260, page=13, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 13>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 61
@@ -1481,7 +1439,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [22 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=266, page=14, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=265, page=14, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 14>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 61
@@ -1498,7 +1456,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [23 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=271, page=15, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=270, page=15, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 15>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 61
@@ -1516,7 +1474,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [24 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=276, page=16, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=275, page=16, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 16>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 61
@@ -1533,7 +1491,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [25 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=282, page=17, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=281, page=17, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 17>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 61
@@ -1550,7 +1508,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [26 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=287, page=18, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=286, page=18, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 18>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 61
@@ -1567,7 +1525,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [27 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=292, page=19, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=291, page=19, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 19>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 61
@@ -1584,7 +1542,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [28 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=297, page=20, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=296, page=20, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 20>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 61
@@ -1601,7 +1559,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [29 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=302, page=21, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=301, page=21, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 21>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 61
@@ -1618,7 +1576,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [30 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=307, page=22, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=306, page=22, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 22>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 61
@@ -1636,7 +1594,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [31 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=313, page=23, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=312, page=23, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 23>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 61
@@ -1653,7 +1611,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [32 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=318, page=24, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=317, page=24, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 24>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 61
@@ -1670,7 +1628,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [33 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=323, page=25, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=322, page=25, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 25>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 61
@@ -1687,7 +1645,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [34 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=328, page=26, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=327, page=26, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 26>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 61
@@ -1704,7 +1662,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [35 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=333, page=27, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=332, page=27, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 27>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 61
@@ -1721,7 +1679,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [36 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=338, page=28, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=337, page=28, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 28>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 61
@@ -1738,7 +1696,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [37 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=344, page=29, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=343, page=29, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 29>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 61
@@ -1756,7 +1714,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [38 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=349, page=30, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=348, page=30, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 30>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 61
@@ -1773,7 +1731,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [39 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=354, page=31, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=353, page=31, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 31>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 61
@@ -1790,7 +1748,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [40 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=359, page=32, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=358, page=32, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 32>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 61
@@ -1807,7 +1765,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [41 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=364, page=33, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=363, page=33, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 33>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 61
@@ -1824,7 +1782,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [42 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=369, page=34, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=368, page=34, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 34>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 61
@@ -1841,7 +1799,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [43 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=375, page=35, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=374, page=35, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 35>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 61
@@ -1858,7 +1816,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [44 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=380, page=36, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=379, page=36, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 36>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 61
@@ -1876,7 +1834,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [45 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=385, page=37, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=384, page=37, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 37>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 61
@@ -1893,7 +1851,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [46 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=390, page=38, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=389, page=38, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 38>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 61
@@ -1910,7 +1868,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [47 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=395, page=39, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=394, page=39, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 39>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 61
@@ -1927,7 +1885,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [48 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=400, page=40, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=399, page=40, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 40>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 61
@@ -1944,7 +1902,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [49 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=411, page=41, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=410, page=41, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 41>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 61
@@ -1961,7 +1919,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [50 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=416, page=42, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=415, page=42, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 42>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 61
@@ -1978,7 +1936,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [51 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=421, page=43, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=420, page=43, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 43>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 61
@@ -1996,7 +1954,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [52 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=426, page=44, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=425, page=44, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 44>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 61
@@ -2013,7 +1971,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [53 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=431, page=45, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=430, page=45, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 45>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 61
@@ -2030,7 +1988,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [54 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=436, page=46, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=435, page=46, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 46>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 61
@@ -2047,7 +2005,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [55 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=442, page=47, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=441, page=47, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 47>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 61
@@ -2064,7 +2022,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [56 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=447, page=48, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=446, page=48, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 48>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 61
@@ -2081,7 +2039,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [57 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=452, page=49, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=451, page=49, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 49>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 61
@@ -2098,7 +2056,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [58 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=457, page=50, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=456, page=50, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 50>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 61
@@ -2116,7 +2074,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 61
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
 [59 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=462, page=51, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=461, page=51, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 51>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 61
@@ -2133,7 +2091,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [60 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=467, page=52, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=466, page=52, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 52>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 61
@@ -2150,7 +2108,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [61 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=473, page=53, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=472, page=53, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 53>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 61
@@ -2167,7 +2125,7 @@ Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 61
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [62 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=478, page=54, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=477, page=54, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 54>
 Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 61
@@ -2189,72 +2147,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (root.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
-
-
-Package rerunfilecheck Warning: File `root.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `root.out':
-(rerunfilecheck)             Before: C34B604C0E5A0A37465D96E79F565A02;1148
-(rerunfilecheck)             After:  B6A8783330B439DA30BEBA7029883347;1196.
-
-LaTeX Warning: There were undefined references.
-
+Package rerunfilecheck Info: File `root.out' has not changed.
+(rerunfilecheck)             Checksum: B6A8783330B439DA30BEBA7029883347;1196.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 19206 strings out of 493306
- 352305 string characters out of 3136390
- 425459 words of memory out of 3000000
- 22279 multiletter control sequences out of 15000+200000
+ 19204 strings out of 493306
+ 352342 string characters out of 3136390
+ 424551 words of memory out of 3000000
+ 22284 multiletter control sequences out of 15000+200000
  9218 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,54p,773b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.4.2.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.2.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></ho
-me/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></hom
-e/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/
-phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/phi
-l/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/phil/
-.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/phil/.mi
-ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/phil/.mikt
-ex/texmfs/install/fonts/type1/urw/avantgar/uagd8a.pfb></home/phil/.miktex/texmf
-s/install/fonts/type1/urw/avantgar/uagk8a.pfb></home/phil/.miktex/texmfs/instal
-l/fonts/type1/urw/avantgar/uagko8a.pfb></home/phil/.miktex/texmfs/install/fonts
-/type1/urw/courier/ucrb8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/ur
-w/courier/ucrr8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/urw/courier
-/ucrro8a.pfb>
-Output written on root.pdf (63 pages, 812752 bytes).
+</home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></h
+ome/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></hom
+e/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/p
+hil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/phi
+l/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/phil/.
+miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/phil/.mi
+ktex/texmfs/install/fonts/type1/urw/avantgar/uagd8a.pfb></home/phil/.miktex/tex
+mfs/install/fonts/type1/urw/avantgar/uagk8a.pfb></home/phil/.miktex/texmfs/inst
+all/fonts/type1/urw/avantgar/uagko8a.pfb></home/phil/.miktex/texmfs/install/fon
+ts/type1/urw/courier/ucrb8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/
+urw/courier/ucrr8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/urw/couri
+er/ucrro8a.pfb>
+Output written on root.pdf (63 pages, 818406 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
 

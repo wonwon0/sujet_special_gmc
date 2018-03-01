@@ -142,15 +142,12 @@ URsim, en soit, n'est disponible que sur Linux.
 Cependant, sur le site web de l'entreprise \href{https://www.universal-robots.com/download/}{Universal Robots}, une machine virtuelle sur laquelle URsim est déjà installée est disponible.
 Ceci permet de conserver l'environnement de développement Windows en exécutant URsim dans une machine virtuelle Linux.
 Le logiciel avec lequel cette machine virtuelle a été utilisée pour l'environnement de développement a été VmWare.
-Après avoir suivi les instructions d'installation fournies avec les fichiers disponibles sur le site web de Universal Robots, il est possible de lancer URsim.
-Mais avant de lancer la machine virtuelle et d'utiliser URsim, il est très important de s'assurer que le contrôleur réseau de la machine vertuelle est en mode "bridged".
-Ceci permet à la machine virtuelle de se faire attribuer une adresse IP propre à elle même et rend possible la communication UDP entre Windows et la machine virtuelle.
 Suite au lancement de la machine virtuelle et d'URsim, l'interface initiale d'URsim vous est présentée (Figure \ref{fig:ui_start}).
 
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/interface_init.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.4]{screenshots_tuto_ursim/interface_init.png}
   \end{tabular}
  \end{center}
 \caption{Interface initiale d'URsim}
@@ -168,7 +165,7 @@ Quand un utilisateur charge un URscript, il appui alors sur \textit{PROGRAM ROBO
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/interface_prog.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.35]{screenshots_tuto_ursim/interface_prog.png}
   \end{tabular}
  \end{center}
 \caption{Interface de programmation d'URsim}
@@ -189,26 +186,37 @@ Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/programs.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.4]{screenshots_tuto_ursim/programs.png}
   \end{tabular}
  \end{center}
 \caption{Emplacement du dossier \textit{programs}}
  \label{fig:programs}
 \end{figure}
 
-Suivant le dépot du dossier \textit{programs} dans le répertoire d'URsim, il est possible d'ouvrir le programme portant le nom d'\textit{matlabcontrolV3.urp} après avoir sélectionner \textit{Load Program} tel que vu dans la Figure \ref{fig:ui_start}.
+Suivant le dépot du dossier \textit{programs} dans le répertoire d'URsim, il est possible d'ouvrir le programme portant le nom d'\textit{matlabcontrolV3.urp} après avoir sélectionné \textit{Load Program} tel que vu dans la Figure \ref{fig:ui_start}.
 
-Ensuite, il faut executer les deux étapes suivante:
+Ensuite, il faut executer les étapes suivante:
 \begin{itemize}
-\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript, (visible en Figure \ref{ui_programmation}), pour qu'elle concorde avec l'adresse IP du controleur réseau Windows. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig.
+\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript pour qu'elle concorde avec l'adresse IP du controleur réseau de VMware. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig. La Figure \ref{fig:windows_ip} représente la sortie de l'invité de commande qu'il faut remarquer lors de l'Entrée de la commande ipconfig.
 \item Sélectionner l'option \textit{Simulation} dans le bas de la fenêtre d'URsim.
 \item Appuyer sur le bouton \textit{Play} présent de le bas, au centre, de la fenêtre d'URsim.
 \end{itemize}
-
-Ces étapes lancent l'URscript sur un robot virtuel et permet l'écoute de commandes envoyées par Matlab.
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/windows_ip.png}
+  \end{tabular}
+ \end{center}
+\caption{C'est l'adresse ip du contrôleur de VMware qu'il faut prendre en note}
+ \label{fig:windows_ip}
+\end{figure}
+Ces étapes lancent l'URscript sur un robot virtuel et permet l'écoute et la réponse à des commandes envoyées par Matlab.
 
 
 \subsubsection{Matlab}
+
+Une fois l'environnement virtuel d'URsim miss en place. L'environement matlab requis pour communiqué avec URsim doit être implémenté.
+Un environnement de travail matlab situé dans le répertoire github mentionné plus dans la dernière section contient plusieurs fichié nécessaires à la communiquation avec URsim, VRep et ROS, un environnemnt dont le présent document traite dans une autre section.
 
 
 \newpage
