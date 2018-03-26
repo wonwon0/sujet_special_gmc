@@ -98,10 +98,10 @@ Pour les utiliser dans un projet Visual Studio, il est nécessaire de suivre les
 \item Insérer le résultat obtenu lors de l'envoie de la commande 2 dans le console Matlab, en omettant les guillemets, dans le section \textit{Include Directories}.
 \item Insérer le résultat obtenu lors de l'envoie de la commande 3 dans le console Matlab, en omettant les guillemets, dans le section \textit{Library Directories}.
 \item Naviguer dans l'onglet \textit{Linker} et le sous-onglet \textit{Input} de la même fenêtre.
-\item Entrer au début d'\textit{Additional Dependencies} l'entrée suivante: \textit{libmx.lib;libeng.lib;libmex.lib;libmat.lib;}.
+\item Entrer au début d'\textit{Additional Dependencies} l'entrée suivante: \textit{libmx.lib;libeng.lib;libmex.lib;libmat.lib;}
 \end{itemize}
 
-Pour tester l'environnement de travail, un script c++ est inclue avec les version récentes de Matlab. 
+Pour tester l'environnement de travail, un script c++ est inclu avec les version récentes de Matlab. 
 Il est accessible en entrant la commande:
 \begin{itemize}
 \item $ edit([ matlabroot $\textbackslash$ extern$\textbackslash$ examples$\textbackslash$ eng\_mat$\textbackslash$ engdemo.cpp' ]);$
@@ -125,126 +125,8 @@ Bien que seulement le bras Jaco a été mentionné, il est toutefois possible d'
 Cependant, une autre option pour contrôler le bras UR5 sous windows est disponible.
 Cette dernière est présentée dans la section suivante.
 
-\section{Solution de contrôle du bras UR5 développée sous Windows}
-
-Le contrôle du bras UR5 sous windows présente quelques défis puisque la majorité des outils de développement pour cet équipement sont développés sur la plateforme Linux.
-Sachant que cette plateforme est souvent méconnue, la solution développée pour interagir avec le bras tentera de minimiser le travail requis avec Linux et fera le lien entre Matlab, URsim et un logiciel de visualisation ce nommant VRep. 
-Ce dernier permet l'insertion et la visualisation de différents objets dans l'environnement du robot puisque URsim ne peut que représenter le robot lui-même.
-Tout d'abord, cette section expliquera l'installation de URsim et les différentes fonctionnalités utiles à la mise en place de l'infrastructure.
-Ensuite, le moyen de communication entre Matlab et URsim sera décrit.
-Finalement, l'interaction avec le logiciel de visualisation VRep sera expliqué.
-
-\subsection{URsim et son utilisation}
-
-URsim permet l'interface avec un robot virtuel ou un robot réel connecté sur le réseau.
-Cette caractéristique est importante puisqu'il serait relativement facile de faire un simulateur directement dans matlab, cependant ce dernier ne pourrait pas directement contrôler le bras UR5.
-En utilisant URsim, le robot simulé agit directement comme un vrai robot, simulant les limitation de forces, de courant et les arrêts d'urgences.
-Ce logiciel permet la programmation de routines de base ainsi que la définition de fonctions plus complexe permettant, entre autre, la communication UDP avec d'autre logiciels.
-URsim, en soit, n'est disponible que sur Linux.
-Cependant, sur le site web de l'entreprise \href{https://www.universal-robots.com/download/}{Universal Robots}, une machine virtuelle sur laquelle URsim est déjà installée est disponible.
-Ceci permet de conserver l'environnement de développement Windows en exécutant URsim dans une machine virtuelle Linux.
-Le logiciel avec lequel cette machine virtuelle a été utilisée pour l'environnement de développement a été VmWare.
-Suite au lancement de la machine virtuelle et d'URsim, l'interface initiale d'URsim vous est présentée (Figure \ref{fig:ui_start}).
-
-\begin{figure}
- \begin{center}
-  \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.4]{screenshots_tuto_ursim/interface_init.png}
-  \end{tabular}
- \end{center}
-\caption{Interface initiale d'URsim}
- \label{fig:ui_start}
-\end{figure}
-
-\begin{itemize}
-\item Le bouton \textit{RUN Program} permet de faire fonctionner des routines contenant différentes fonctions. Ces routines sont communément appelées \textit{URscript}. Ces scripts peuvent variés en complexité allant d'une simple séquence de positions à atteindre jusqu'à un programme complexe gérant de multiples sockets de communications UDP et répondant à des appels de fonctions listées dans la librairie d'URsim.
-\item Le bouton \textit{PROGRAM Robot} permet la rédaction ou la modification d'URscripts
-\item Le bouton \textit{SETUP robot} permet la modification de paramètres tels que l'adresse IP d'un robot réel qu'un utilisateur voudrait contrôler via l'instance d'URsim installée sur la machine virtuelle.
-\end{itemize}
-
-Quand un utilisateur charge un URscript, il appui alors sur \textit{PROGRAM ROBOT}, puis sur \textit{Load Program} (ou sur \textit{Empty program} si il n'y a pas de programmes déjà disponibles). Une fois cette opération complétée la fenêtre présente à la Figure \ref{fig:ui_programmation}. Ceci constitue l'interface de programmation d'URscripts. Un manuel de programmation URscript est inclue dans l'appendice A, cependant, pour le fonctionnement de l'environnement de développement tel que présenté, aucune programmation URscript ne sera nécessaire.
-
-\begin{figure}
- \begin{center}
-  \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.35]{screenshots_tuto_ursim/interface_prog.png}
-  \end{tabular}
- \end{center}
-\caption{Interface de programmation d'URsim}
- \label{fig:ui_programmation}
-\end{figure}
-
-
-
-\subsection{Lien URsim-Matlab}
-Comme mentionné précédemment, les URscripts peuvent gérer des sockets de communication UDP et utiliser des fonctions tirées de la librairie d'URsim. 
-En premier lieu, les manipulations requises dans le logiciel URsim lancé dans la machiner virtuelle seront décrites.
-Ensuite, les étapes à suivres dans l'environnement de développement Matlab sous windows seront expliquées.
-
-\subsubsection{URsim}
-
-C'est de cette manière qu'un URscript a été rédigé de manière à répondre à certaines commandes envoyées sous format texte par Matlab.
-Les fichiers URscripts en question sont disponibles dans le dossier \textit{programs} du dépot github \href{https://github.com/wonwon0/sujet_special_gmc.git}{suivant}.
-Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le dossier \textit{programs} présent dans le répertoire d'instalation d'URsim par celui téléchargé depuis le répertoire github mentionné plus haut. La figure \ref{fig:programs} représente grosso modo l'endroit dans lequel il faut remplacer le dossier \textit{programs}.
-\begin{figure}
- \begin{center}
-  \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.4]{screenshots_tuto_ursim/programs.png}
-  \end{tabular}
- \end{center}
-\caption{Emplacement du dossier \textit{programs}}
- \label{fig:programs}
-\end{figure}
-
-Suivant le dépot du dossier \textit{programs} dans le répertoire d'URsim, il est possible d'ouvrir le programme portant le nom d'\textit{matlabcontrolV3.urp} après avoir sélectionné \textit{Load Program} tel que vu dans la Figure \ref{fig:ui_start}.
-
-Ensuite, il faut executer les étapes suivante:
-\begin{itemize}
-\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript pour qu'elle concorde avec l'adresse IP du controleur réseau de VMware. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig. La Figure \ref{fig:windows_ip} représente la sortie de l'invité de commande qu'il faut remarquer lors de l'Entrée de la commande ipconfig.
-\item Sélectionner l'option \textit{Simulation} dans le bas de la fenêtre d'URsim.
-\item Appuyer sur le bouton \textit{Play} présent de le bas, au centre, de la fenêtre d'URsim.
-\end{itemize}
-\begin{figure}
- \begin{center}
-  \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/windows_ip.png}
-  \end{tabular}
- \end{center}
-\caption{Exemple de l'adresse ip du contrôleur de VMware qu'il faut prendre en note (IPv4 address)}
- \label{fig:windows_ip}
-\end{figure}
-Ces étapes lancent l'URscript sur un robot virtuel et permet l'écoute et la réponse à des commandes envoyées par Matlab.
-
-
-\subsubsection{Matlab}
-
-Une fois l'environnement virtuel d'URsim mis en place, l'environement matlab requis pour communiquer avec URsim doit être implémenté.
-Un environnement de travail matlab situé dans le répertoire github mentionné plus dans la dernière section contient plusieurs fichiers nécessaires à la communiquation avec URsim, VRep et ROS, un environnemnt dont le présent document traite dans une autre section.
-
-
-
-
-\subsection{Logiciel de visualistion VRep}
-
-Bien que le logiciel URsim permet de représenter le robot dans un environnement 3D de base, il ne permet pas la représentation d'objets composant l'environnement de travail du robot.
-Pour se faire, le logiciel VRep est utilisé.
-Ce dernier permet d'afficher une multitude d'objets localisés dans une librairie déjà prédéfinie.
-Cette section couvre brièvement les étapes requise pour l'instalation et l'utilisatiuon de VRep avec matlab.
-
-\subsubsection{Instalation de VRep}
-
-L'instalation de VRep peut se faire rapidement en téléchargeant la version d'éducation sur le site web officiel \href{http://www.coppeliarobotics.com/downloads.html}{suivant}.
-
-\subsection{Interface matlab-VRep}
-
-Suite à l'instalation de VRep, 
 
 \newpage
-
-
-
-
-
 
 
 

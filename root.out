@@ -11,10 +11,10 @@
 \BOOKMARK [1][-]{section.5}{Solution de contr\364le du bras UR5 d\351velopp\351e sous Windows}{}% 11
 \BOOKMARK [2][-]{subsection.5.1}{URsim et son utilisation}{section.5}% 12
 \BOOKMARK [2][-]{subsection.5.2}{Lien URsim-Matlab}{section.5}% 13
-\BOOKMARK [3][-]{subsubsection.5.2.1}{URsim}{subsection.5.2}% 14
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Matlab}{subsection.5.2}% 15
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Manipulations dans URsim}{subsection.5.2}% 14
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Interface Matlab-URsim}{subsection.5.2}% 15
 \BOOKMARK [2][-]{subsection.5.3}{Logiciel de visualistion VRep}{section.5}% 16
 \BOOKMARK [3][-]{subsubsection.5.3.1}{Instalation de VRep}{subsection.5.3}% 17
-\BOOKMARK [2][-]{subsection.5.4}{Interface matlab-VRep}{section.5}% 18
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Interface Matlab-VRep}{subsection.5.3}% 18
 \BOOKMARK [1][-]{appendix.A}{Manuel de programmation URscript}{}% 19
 \BOOKMARK [1][-]{appendix.B}{Fonctions de l'API VRep}{}% 20
