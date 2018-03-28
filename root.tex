@@ -7,6 +7,7 @@
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{pdfpages}
+\usepackage{subfiles}
 \titleclass{\subsubsubsection}{straight}[\subsection]
 
 \newcounter{subsubsubsection}[subsubsection]
@@ -47,11 +48,13 @@
  \begin{document}
  \selectlanguage{french}	% Change to "francais" if needed
  \maketitle
- \input{abstract}
- \input{Communication_ordinateur-robot}
- \input{ur5_matlab}
+ \subfile{abstract.tex}
+ \subfile{Communication_ordinateur-robot.tex}
+ \subfile{ur5_matlab.tex}
+ \subfile{jaco_ros.tex}
  \begin{thebibliography}{}
  \bibitem{key1} First Reference...
+ \bibitem{jaco_github} https://github.com/JenniferBuehler
  \end{thebibliography}
  \newpage
  \appendix

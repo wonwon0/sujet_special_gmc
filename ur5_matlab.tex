@@ -1,3 +1,8 @@
+\documentclass[root.tex]{subfiles}
+\begin{document}
+
+
+
 \section{Solution de contrôle du bras UR5 développée sous Windows}
 
 Le contrôle du bras UR5 sous windows présente quelques défis puisque la majorité des outils de développement pour cet équipement sont développés sur la plateforme Linux.
@@ -73,7 +78,7 @@ Suivant le dépot du dossier \textit{programs} dans le répertoire d'URsim, il e
 
 Ensuite, il faut executer les étapes suivante:
 \begin{itemize}
-\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript pour qu'elle concorde avec l'adresse IP du controleur réseau de VMware. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig. La Figure \ref{fig:windows_ip} représente la sortie de l'invité de commande qu'il faut remarquer lors de l'Entrée de la commande ipconfig.
+\item Modifier l'adresse IP dans la fonction \textit{socket\_open} du URscript pour qu'elle concorde avec l'adresse IP du controleur réseau de VMware. Cette infromation est disponible en ouvrant un invité de commande dans la session Windows et de tapper ipconfig. La Figure \ref{fig:windows_ip} représente la sortie de l'invité de commande qu'il faut remarquer lors de l'envoie de la commande ipconfig.
 \item Sélectionner l'option \textit{Simulation} dans le bas de la fenêtre d'URsim.
 \item Appuyer sur le bouton \textit{Play} présent de le bas, au centre, de la fenêtre d'URsim.
 \end{itemize}
@@ -109,7 +114,7 @@ Voici la liste des fonctions disponible dans le répertoire github fourni:
 
 
 
-Ces fonctions permettent l'appel des fonctions d'URsim listée dans l'annexe A.
+Ces fonctions permettent l'appel des fonctions d'URsim listées dans l'annexe A.
 Une fois les packets lus par URsim, le URscript détermine quelle fonction appeler.
 Suivant la méthodologie utilisée, il est facile d'ajouter des fonctions au URscript et d'adapter des fonctions Matlab à la nouvelle commande à envoyer.
 
@@ -159,5 +164,50 @@ vrep=remApi('remoteApi');
 Ensuite, il est possible d'envoyer des commandes à une instance de VRep.
 Dans l'environnement du simulateur, l'interaction du script matlab avec VRep se résume à l'envoie des positions articulaires lues dans URsim.
 
+\subsection{Exemple d'utilisation}
+
+L'utilisation de la solution présentée dans cette section peut être résumée par les étapes suivantes:
+
+\begin{itemize}
+\item Connection d'un joystick dans l'ordinateur (requis pour l'exemple).
+\item Ouverture de la machine virtuelle et démarage d'URsim
+\item Chargement du URscript dans URsim.
+\item Ouverture de VRep sur la session windows.
+\item Chargement de la scène \textit{scene\_ur5\_1.ttt} dans VRep (ce fichier est présent dans le dépot github mentionné plus haut).
+\item Démarage du script matlab nommé \textit{Exemple\_controle\_ur5\_vrep.m}.
+\item Appuyer sur le bouton "play" de URsim
+\end{itemize}
+
+Suite à l'exécution de ces étapes, le robot est contrôlable avec le joystick et devrait être visualisé dans VRep.
+
+Pour plus de détails quant à l'utilisation des fonctions dans matlab, il est possible de lire le code exemple qui a été commenté pour faciliter la compréhension. De plus, l'annexe B est constituée d'un document listant la magoritée des commandes disponibles.
+
+\subsection{Conclusion}
+
+La solution de contrôle du bras UR5 avec matlab à été présentée.
+L'instalation et l'utilisation de URsim dans une machine virtuelle à été abordée.
+Cependant la nécessité d'utiliser une machine virtuelle ainsi qu'un logiciel de visualisation tel que VRep est quelque peu compliquée.
+
 
 \newpage
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

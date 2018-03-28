@@ -1,3 +1,7 @@
+\documentclass[root.tex]{subfiles}
+\begin{document}
+
+
 \section{Introduction}
 Dans une démarche expérimentale, il est souvent requis d'implémenter les algorithmes développés, dans un environnement tel que Matlab, sur des systèmes robotiques déjà existants. 
 La solution couramment utilisée est d'employer un nœud de calcul QNX sur lequel RTLAB est installé. 
@@ -49,7 +53,7 @@ Par la suite, il suffit d'utiliser directement l'API de kinova pour envoyer des 
 \subsection{Exemple d'implémentation}
 
 Différents composants doivent être mis en place pour réaliser l'implémentation.
-Le présent exemple permet de configure un projet visual studio pour contrôler un bras Jaco en communiquant avec Matlab.
+Le présent exemple permet de configurer un projet visual studio pour contrôler un bras Jaco en communiquant avec Matlab.
 \subsubsection{Visual Studio}
 Il est possible de télécharger \href{https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15}{VisualStudio} sur le site web des développeurs.
 
@@ -71,14 +75,13 @@ Pour être en mesure d'envoyer des commandes avec un joystick, la librairie \hre
 }{SDL2} doit être téléchargée.
 Bien sûr, si le projet ne requiert pas de contrôleur joystick, cette étape n'est pas nécessaire.
 Après avoir décompressé le dossier téléchargé, lire le fichier VisualC.html pour les instructions sur la démarche à suivre pour utiliser la libraire (en particulier la partie parlant de l'utilisation avec Visual Studio).
-Les détails de l'utilisation pratique de cette librairie seront couverts dans une section subséquentes.
+Les détails de l'utilisation pratique de cette librairie seront couverts dans une section subséquente.
 
 \subsubsection{Lien avec Matlab}
 
-La description de cette partie se fera en trois temps.
+La description de cette partie se fera en deux temps.
 Dans un premier temps, une explication des différentes composantes devant être mises en places pour monter l'environnement de développement sera présentée.
 Ensuite, l'installation des pilotes pour l'envoie de commandes au bras Jaco est expliquée.
-Finalement, une description de différentes parties du script permettant le contrôle du bras Jaco sera fait.
 \paragraph{Environnement de travail} Les différentes librairies, exécutables et les entêtes (\textit{headers})  nécessaires à l'utilisation de Matlab via un script c++ sont disponible dans le répertoire retourné lorsque l'on envoie les commandes suivantes dans la console Matlab:
 \begin{enumerate}
 \item fullfile(matlabroot,'bin','win64').
@@ -120,12 +123,14 @@ Des exemples de scripts c++ sont aussi disponibles dans le répertoire \textit{K
 
 À la suite du test, il est maintenant possible de combiner les informations des deux tutoriels pour faire fonctionner des scripts matlab, transférer des données de l'environnement de travail matlab vers le \textit{stack} du programme c++ et vice versa.
 
-Dans cette section, un survol de l'implémentation de l'environnement de développement permettant le contrôle du bras Jaco sous Windows avec l'option d'utiliser des scripts Matlab a été présenté.
+\subsection{Conclusion}
+
+Dans cette section, un survol de l'implémentation de l'environnement de développement permettant le contrôle du bras Jaco sous Windows avec l'option d'utiliser des scripts Matlab a été présentée.
 Bien que seulement le bras Jaco a été mentionné, il est toutefois possible d'utiliser les API \textit{c++} d'autres systèmes robotiques tels que les bras de Universal Robot. 
 Cependant, une autre option pour contrôler le bras UR5 sous windows est disponible.
 Cette dernière est présentée dans la section suivante.
 
-
+\end{document}
 \newpage
 
 
