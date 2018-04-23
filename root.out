@@ -25,5 +25,6 @@
 \BOOKMARK [2][-]{subsection.6.3}{Installation de ROS et de Gazebo}{section.6}% 25
 \BOOKMARK [2][-]{subsection.6.4}{Installation de la suite de programmes Jaco}{section.6}% 26
 \BOOKMARK [2][-]{subsection.6.5}{Contr\364le du robot jaco en simulation et d'un r\351el bras Jaco}{section.6}% 27
-\BOOKMARK [1][-]{appendix.A}{Manuel de programmation URscript}{}% 28
-\BOOKMARK [1][-]{appendix.B}{Fonctions de l'API VRep}{}% 29
+\BOOKMARK [2][-]{subsection.6.6}{Conclusion}{section.6}% 28
+\BOOKMARK [1][-]{appendix.A}{Manuel de programmation URscript}{}% 29
+\BOOKMARK [1][-]{appendix.B}{Fonctions de l'API VRep}{}% 30

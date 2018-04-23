@@ -1,45 +1,17 @@
 \documentclass[root.tex]{subfiles}
 \begin{document}
 
-
-\section{Introduction}
-Dans une démarche expérimentale, il est souvent requis d'implémenter les algorithmes développés, dans un environnement tel que Matlab, sur des systèmes robotiques déjà existants. 
-La solution couramment utilisée est d'employer un nœud de calcul QNX sur lequel RTLAB est installé. 
-Ceci requiert un processus d'adaptation autant au niveau de l'utilisation du logiciel qu'au niveau de l'adaptation du code Matlab, python c++ déjà développé. 
-Bien souvent, le processus peut s'échelonner sur plusieurs semaines. 
-Ceci motive alors la recherche d'alternatives permettant l'utilisation directe du code sur un système robotique. 
-L'objectif étant de permettre l'utilisation de différents langage de programmation pour minimiser le temps d'adaptation. 
-Une solution permettant l'utilisation du code Matlab, python, c++ et autre est alors mise sur pied.
-
-\section{Mise en contexte}
-
-Les solutions présentées dans ce rapport répondent toutes au besoin d'utiliser le code directement sur un montage robotique. 
-Cependant, elle présentent toutes différents avantage et inconvénient. 
-Comme processus de validation, le solutions ont été testées en répondant à la même problématique: l'utilisation d'un bras Jaco de Kinova directement par l'entremise de la connexion usb.
-
-
-\section{Définition des objectifs}
-
-Différents critères doivent être rencontrés pour qu'une solution soit acceptable et remplace le système déjà en place.
-
-\begin{enumerate}
-\item Permettre la communication bidirectionnelle.
-\item Être compatible avec plusieurs systèmes robotiques.
-\item Permettre une communication avec un délais de moins de 10 ms. (100 Hz)
-\item Permettre une grande flexibilité dans le type de commandes qu'un utilisateur peut envoyer. (commandes articulaires, cartésiennes, force, etc.)
-\end{enumerate}
-
 \section{Solution de contrôle du bras Jaco développée sous Windows}
 
 Sachant que Windows est le système d'exploitation majoritairement utilisé au sein du laboratoire de robotique de l'université Laval, le besoin de développer une solution compatible Windows a été identifié. 
-La stratégie employée est représenté dans la Figure \ref{fig:diag}.
+La stratégie employée est représentée dans la Figure \ref{fig:diag}.
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.17]{"diag_fonc3".pdf}
+    \includegraphics[trim=0cm 4cm 0cm 5cm, scale=0.6]{"diag_fonc4".pdf}
   \end{tabular}
  \end{center}
-\caption{General structure of the algorithm.}
+\caption{Structure de l'environnement de développement.}
  \label{fig:diag}
 \end{figure}
 Du point de vue global, la structure du système se résume en une chaine de communication UDP entre différents programmes et le robot. 
@@ -59,7 +31,7 @@ Il est possible de télécharger \href{https://www.visualstudio.com/thank-you-do
 
 \subsubsection{Création d'un projet}
 Un projet VisualStudio peut être créé en cliquant sur \textit{file/new/project} dans la fenêtre de visual studio.
-Ensuite, sélectionner \textit{Visual c++} dans le menu gauche de la nouvelle fenêtre et cliquez sur \textit{Empty Project}.
+Ensuite, sélectionner \textit{Visual c++} dans le menu gauche de la nouvelle fenêtre et cliquer sur \textit{Empty Project}.
 Dans le bas de la fenêtre, il est possible de nommer le projet et sélectionner un répertoire.
 Le répertoire choisi sera référé comme étant le \textit{workspace} ou \textit{project direcotry} dans la pluspart des tutoriels en anglais.
 Tout ficher placé dans ce répertoire fera partie du projet et pourra être référé dans les scripts.
@@ -81,7 +53,7 @@ Les détails de l'utilisation pratique de cette librairie seront couverts dans u
 
 La description de cette partie se fera en deux temps.
 Dans un premier temps, une explication des différentes composantes devant être mises en places pour monter l'environnement de développement sera présentée.
-Ensuite, l'installation des pilotes pour l'envoie de commandes au bras Jaco est expliquée.
+Ensuite, l'installation des pilotes pour l'envoi de commandes au bras Jaco est expliquée.
 \paragraph{Environnement de travail} Les différentes librairies, exécutables et les entêtes (\textit{headers})  nécessaires à l'utilisation de Matlab via un script c++ sont disponible dans le répertoire retourné lorsque l'on envoie les commandes suivantes dans la console Matlab:
 \begin{enumerate}
 \item fullfile(matlabroot,'bin','win64').
@@ -94,7 +66,7 @@ Pour les utiliser dans un projet Visual Studio, il est nécessaire de suivre les
 \item Il est tout d'abord très important de s'assurer que l'option x64 est sélectionnée dans le menu déroulant dans le haut et au centre de la fenêtre principale de Visual Studio.
 \item Aller dans \textit{Project\textbackslash'nom-de-votre-projet' Properties...} dans le haut de la fenêtre principale de Visual Studio.
 \item Naviguer dans l'onglet Debugging de la fenêtre venant de s'ouvrir.
-\item Écrire \textit{PATH=} suivi du résultat obtenu lors de l'envoie de la commande 1 dans le console Matlab, en omettant les guillemets,(devrait ressembler à \newline \textit{C:\textbackslash Program Files\textbackslash MATLAB\textbackslash R2017b\textbackslash bin\textbackslash win64}) dans le section \textit{Environnement}.
+\item Écrire \textit{PATH=} suivi du résultat obtenu lors de l'envoie de la commande 1 dans le console Matlab, en omettant les guillemets,(devrait ressembler à \newline \textit{C:\textbackslash Program Files\textbackslash MATLAB\textbackslash R2017b\textbackslash bin\textbackslash win64}) dans la section \textit{Environnement}.
 Écrire Directement à la suite de la dernière entrée: \textit{;\%PATH\%}
 \item Naviguer dans l'onglet VC++ Directories de la même fenêtre.
 \item \textbf{Pour les prochaines étapes}: Si un item était déjà présent dans cette ligne, il faut simplement séparer les entrées avec un ";".
@@ -111,7 +83,7 @@ Il est accessible en entrant la commande:
 \end{itemize}
 
 Il faut seulement copier-coller l'entièreté du script dans le fichier source (.cpp) du projet Visual Studio. Le clic sur le bouton \textit{Local Windows Debugger} lancera la compilation et devrait faire apparaitre un invité de commande. 
-La première compilation est normalement beaucoup plus longue que les compilations subséquente.
+La première compilation est normalement beaucoup plus longue que les compilations subséquentes.
 
 \paragraph{Installation de Kinova SDK}
 Pour être en mesure d'envoyer des commandes au robot jaco, il est nécessaire d'installer les pilotes fournis sur le site web de \href{https://drive.google.com/open?id=0B790iVm0vRTlRFNFRldIb2Jmbkk}{Kinova}.
@@ -129,9 +101,9 @@ Dans cette section, un survol de l'implémentation de l'environnement de dévelo
 Bien que seulement le bras Jaco a été mentionné, il est toutefois possible d'utiliser les API \textit{c++} d'autres systèmes robotiques tels que les bras de Universal Robot. 
 Cependant, une autre option pour contrôler le bras UR5 sous windows est disponible.
 Cette dernière est présentée dans la section suivante.
+\newpage
 
 \end{document}
-\newpage
 
 
 

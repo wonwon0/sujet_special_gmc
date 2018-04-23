@@ -45,7 +45,7 @@ Quand un utilisateur charge un URscript, il appui alors sur \textit{PROGRAM ROBO
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.35]{screenshots_tuto_ursim/interface_prog.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.45]{screenshots_tuto_ursim/interface_prog.png}
   \end{tabular}
  \end{center}
 \caption{Interface de programmation d'URsim}
@@ -67,7 +67,7 @@ Pour rendre ces URscripts disponibles pour URsim, il faut seulement remplacer le
 \begin{figure}
  \begin{center}
   \begin{tabular}{c}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.4]{screenshots_tuto_ursim/programs.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.5]{screenshots_tuto_ursim/programs.png}
   \end{tabular}
  \end{center}
 \caption{Emplacement du dossier \textit{programs}}
@@ -145,17 +145,14 @@ Sur le système d'exploitation Windows, cet endroit est normalement:
 \newline
 C:\textbackslash Program Files (x86)\textbackslash V-REP3\textbackslash V-REP\_PRO\_EDU\textbackslash programming\textbackslash remoteApiBindings\textbackslash matlab\textbackslash matlab
 \newline
-\newline
 pour le fichier ".m" et:
 \newline
-\newline
 C:\textbackslash Program Files (x86)\textbackslash V-REP3\textbackslash V-REP\_PRO\_EDU\textbackslash programming\textbackslash remoteApiBindings\textbackslash lib\textbackslash lib\textbackslash 64Bit
-\newline
 \newline
 pour le fichier ".dll".
 \newline
 
-Suite à l'incorporation de ces fichiers dans l'environnement de travail, il est possible d'intialiser l'objet interagissant avec l'API dans matlab avec cette commande:
+Suite à l'incorporation de ces fichiers dans l'environnement de travail, il est possible d'initialiser l'objet interagissant avec l'API dans matlab avec cette commande:
 \newline
 
 vrep=remApi('remoteApi');
@@ -178,8 +175,16 @@ L'utilisation de la solution présentée dans cette section peut être résumée
 \item Appuyer sur le bouton "play" de URsim
 \end{itemize}
 
-Suite à l'exécution de ces étapes, le robot est contrôlable avec le joystick et devrait être visualisé dans VRep.
-
+Suite à l'exécution de ces étapes, le robot est contrôlable avec le joystick et devrait être visualisé dans VRep. La Figure \ref{fig:vrep_scene} représente l'interface VRep lorsque la scène est chargée.
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.25]{vrep_ur.png}
+  \end{tabular}
+ \end{center}
+\caption{Interface du simulateur VRep avec la scène chargée.}
+ \label{fig:vrep_scene}
+\end{figure}
 Pour plus de détails quant à l'utilisation des fonctions dans matlab, il est possible de lire le code exemple qui a été commenté pour faciliter la compréhension. De plus, l'annexe B est constituée d'un document listant la magoritée des commandes disponibles.
 
 \subsection{Conclusion}
@@ -190,7 +195,6 @@ Cependant la nécessité d'utiliser une machine virtuelle ainsi qu'un logiciel d
 
 
 \newpage
-
 
 
 \end{document}
