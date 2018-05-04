@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.19)  23 APR 2018 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.4.19)  4 MAY 2018 09:57
 entering extended mode
 **./root.tex
 (root.tex
@@ -1117,7 +1117,7 @@ Overfull \hbox (4.5309pt too wide) in paragraph at lines 6--13
  []
 
 ) (mise_contexte.tex [2]) (Communication_ordinateur-robot.tex
-<"diag_fonc4".pdf, id=143, 796.9775pt x 597.23125pt>
+<"diag_fonc4".pdf, id=147, 796.9775pt x 597.23125pt>
 File: "diag_fonc4".pdf Graphic file (type pdf)
 <use "diag_fonc4".pdf>
 Package pdftex.def Info: "diag_fonc4".pdf  used on input line 11.
@@ -1134,29 +1134,29 @@ has been already used, duplicate ignored
                                                   
 l.38 
       <./diag_fonc4.pdf>]
-Overfull \hbox (12.58075pt too wide) in paragraph at lines 57--58
+Overfull \hbox (12.58075pt too wide) in paragraph at lines 58--59
  []\OT1/cmr/bx/n/10.95 Environnement de tra-vail[] \OT1/cmr/m/n/10.95 Les diff
 erentes li-brai-ries, executables et les ent^etes (\OT1/cmr/m/it/10.95 hea-der
 s\OT1/cmr/m/n/10.95 ) necessaires
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 (/home/phil/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
  [4]
-Overfull \hbox (11.02036pt too wide) in paragraph at lines 76--77
+Overfull \hbox (11.02036pt too wide) in paragraph at lines 77--78
 []\OT1/cmr/m/n/10.95 Entrer au debut d'\OT1/cmr/m/it/10.95 Additional De-pen-d
 en-cies \OT1/cmr/m/n/10.95 l'entree sui-vante : \OT1/cmr/m/it/10.95 libmx.lib 
 ;li-beng.lib ;lib-mex.lib ;lib-
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 [5]) (ur5_matlab.tex
-<screenshots_tuto_ursim/interface_init.png, id=183, 678.28406pt x 461.47406pt>
+<screenshots_tuto_ursim/interface_init.png, id=187, 678.28406pt x 461.47406pt>
 File: screenshots_tuto_ursim/interface_init.png Graphic file (type png)
 <use screenshots_tuto_ursim/interface_init.png>
 Package pdftex.def Info: screenshots_tuto_ursim/interface_init.png  used on inp
@@ -1170,13 +1170,13 @@ ut line 30.
 l.39 \item L
             e bouton \textit{PROGRAM Robot} permet la rédaction ou la modif...
  <./screenshots_tuto_ursim/interface_init.png>]
-<screenshots_tuto_ursim/interface_prog.png, id=190, 679.03688pt x 459.21562pt>
+<screenshots_tuto_ursim/interface_prog.png, id=194, 679.03688pt x 459.21562pt>
 File: screenshots_tuto_ursim/interface_prog.png Graphic file (type png)
 <use screenshots_tuto_ursim/interface_prog.png>
 Package pdftex.def Info: screenshots_tuto_ursim/interface_prog.png  used on inp
 ut line 48.
 (pdftex.def)             Requested size: 305.56377pt x 206.64511pt.
-<screenshots_tuto_ursim/programs.png, id=193, 545.03625pt x 422.32782pt>
+<screenshots_tuto_ursim/programs.png, id=197, 545.03625pt x 422.32782pt>
 File: screenshots_tuto_ursim/programs.png Graphic file (type png)
 <use screenshots_tuto_ursim/programs.png>
 Package pdftex.def Info: screenshots_tuto_ursim/programs.png  used on input lin
@@ -1190,7 +1190,7 @@ e 70.
 l.81 \item M
             odifier l'adresse IP dans la fonction \textit{socket\_open} du U...
  <./screenshots_tuto_ursim/interface_prog.png>]
-<screenshots_tuto_ursim/windows_ip.png, id=203, 566.86781pt x 129.48375pt>
+<screenshots_tuto_ursim/windows_ip.png, id=207, 566.86781pt x 129.48375pt>
 File: screenshots_tuto_ursim/windows_ip.png Graphic file (type png)
 <use screenshots_tuto_ursim/windows_ip.png>
 Package pdftex.def Info: screenshots_tuto_ursim/windows_ip.png  used on input l
@@ -1243,7 +1243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-<vrep_ur.png, id=217, 1594.95876pt x 899.36pt>
+<vrep_ur.png, id=221, 1594.95876pt x 899.36pt>
 File: vrep_ur.png Graphic file (type png)
 <use vrep_ur.png>
 Package pdftex.def Info: vrep_ur.png  used on input line 183.
@@ -1260,7 +1260,7 @@ Overfull \hbox (12.71185pt too wide) in paragraph at lines 7--12
 au-te-ment ver-sa-tile per-met-tant la representation
  []
 
-<gazebo_jaco.png, id=228, 1540.75626pt x 897.3525pt>
+<gazebo_jaco.png, id=232, 1540.75626pt x 897.3525pt>
 File: gazebo_jaco.png Graphic file (type png)
 <use gazebo_jaco.png>
 Package pdftex.def Info: gazebo_jaco.png  used on input line 31.
@@ -1276,1404 +1276,1482 @@ l.84 \begin{itemize}
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 64.
 
-<scriptmanual_en_3_1.pdf, id=260, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 67.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 67.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<scriptmanual_en_3_1.pdf, id=263, page=1, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 1>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 67.
-
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 1>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+<jaco_windows.pdf, id=264, 614.295pt x 794.97pt>
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf>
+Package pdftex.def Info: jaco_windows.pdf  used on input line 67.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf>
+Package pdftex.def Info: jaco_windows.pdf  used on input line 67.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<jaco_windows.pdf, id=267, page=1, 614.295pt x 794.97pt>
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 1>
+Package pdftex.def Info: jaco_windows.pdf , page1 used on input line 67.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 1>
+Package pdftex.def Info: jaco_windows.pdf , page1 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [16]
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 1>
+Package pdftex.def Info: jaco_windows.pdf , page1 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 1>
+Package pdftex.def Info: jaco_windows.pdf , page1 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 1>
+Package pdftex.def Info: jaco_windows.pdf , page1 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [17 <./jaco_windows.pdf>]
+<jaco_windows.pdf, id=306, page=2, 614.295pt x 794.97pt>
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 2>
+Package pdftex.def Info: jaco_windows.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 2>
+Package pdftex.def Info: jaco_windows.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 2>
+Package pdftex.def Info: jaco_windows.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [18 <./jaco_windows.pdf>]
+<jaco_windows.pdf, id=312, page=3, 614.295pt x 794.97pt>
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 3>
+Package pdftex.def Info: jaco_windows.pdf , page3 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 3>
+Package pdftex.def Info: jaco_windows.pdf , page3 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 3>
+Package pdftex.def Info: jaco_windows.pdf , page3 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [19 <./jaco_windows.pdf>]
+<jaco_windows.pdf, id=319, page=4, 614.295pt x 794.97pt>
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 4>
+Package pdftex.def Info: jaco_windows.pdf , page4 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 4>
+Package pdftex.def Info: jaco_windows.pdf , page4 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: jaco_windows.pdf Graphic file (type pdf)
+<use jaco_windows.pdf, page 4>
+Package pdftex.def Info: jaco_windows.pdf , page4 used on input line 67.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [20 <./jaco_windows.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 68.
+
+<scriptmanual_en_3_1.pdf, id=325, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 71.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf  used on input line 71.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<scriptmanual_en_3_1.pdf, id=328, page=1, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 1>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 67.
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 71.
+
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 1>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 71.
+
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+[21]
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 1>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 1>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 67.
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
 <use scriptmanual_en_3_1.pdf, page 1>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [17 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=279, page=2, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 2>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 2>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 2>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [18 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=299, page=3, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 3>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 3>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 3>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [19 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=310, page=4, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 4>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 4>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 4>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [20 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=320, page=5, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 5>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 5>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 5>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [21 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=325, page=6, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 6>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 6>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 6>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 67.
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page1 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [22 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=330, page=7, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=344, page=2, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 7>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 2>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 7>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 2>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 7>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 2>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page2 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [23 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=335, page=8, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=364, page=3, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 8>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 3>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 8>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 3>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 8>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 3>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page3 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[24 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=340, page=9, 597.50829pt x 845.0471pt>
+ [24 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=374, page=4, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 9>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 67.
-
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 9>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 4>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 9>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 67.
+<use scriptmanual_en_3_1.pdf, page 4>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 71.
+
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 4>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page4 used on input line 71.
 
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [25 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=346, page=10, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=385, page=5, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 10>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 5>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 10>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 5>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 10>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 5>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page5 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [26 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=356, page=11, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=390, page=6, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 11>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 6>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 11>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 6>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 11>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 6>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page6 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [27 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=361, page=12, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=395, page=7, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 12>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 7>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 12>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 7>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 12>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 7>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page7 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [28 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=366, page=13, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=400, page=8, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 13>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 8>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 13>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 8>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 13>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [29 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=371, page=14, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 14>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 14>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 14>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [30 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=376, page=15, 597.50829pt x 845.0471pt>
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 15>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 15>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 15>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 67
-.
+<use scriptmanual_en_3_1.pdf, page 8>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page8 used on input line 71.
+
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 
-[31 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=382, page=16, 597.50829pt x 845.0471pt>
+[29 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=405, page=9, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 16>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 9>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 71.
+
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 9>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 71.
+
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 9>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page9 used on input line 71.
+
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [30 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=410, page=10, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 10>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 16>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 10>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 16>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 10>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page10 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [31 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=421, page=11, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 11>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 11>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 11>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page11 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [32 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=387, page=17, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=426, page=12, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 17>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 12>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 17>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 12>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 17>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 12>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page12 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [33 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=392, page=18, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=431, page=13, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 18>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 13>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 18>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 13>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 18>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 13>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page13 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [34 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=397, page=19, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=436, page=14, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 19>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 14>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 19>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 14>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 19>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 14>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page14 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [35 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=402, page=20, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=441, page=15, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 20>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 15>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 20>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 15>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 20>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 15>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page15 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [36 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=407, page=21, 597.50829pt x 845.0471pt>
+
+[36 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=446, page=16, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 21>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 21>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 16>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 21>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 16>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 16>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page16 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [37 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=413, page=22, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=452, page=17, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 22>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 17>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 22>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 17>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 22>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 17>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page17 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[38 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=418, page=23, 597.50829pt x 845.0471pt>
+ [38 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=457, page=18, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 23>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 23>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 18>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 23>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 18>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 18>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page18 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [39 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=423, page=24, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=462, page=19, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 24>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 19>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 24>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 19>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 24>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 19>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page19 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [40 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=428, page=25, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=467, page=20, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 25>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 20>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 25>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 20>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 25>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 20>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page20 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [41 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=433, page=26, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=472, page=21, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 26>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 21>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 26>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 21>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 26>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 21>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page21 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [42 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=438, page=27, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=477, page=22, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 27>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 22>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 27>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 22>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 27>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 22>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page22 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [43 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=444, page=28, 597.50829pt x 845.0471pt>
+
+[43 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=483, page=23, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 28>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 28>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 23>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 28>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 23>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 23>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page23 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [44 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=449, page=29, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=488, page=24, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 29>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 24>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 29>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 24>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 29>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 24>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page24 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[45 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=454, page=30, 597.50829pt x 845.0471pt>
+ [45 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=493, page=25, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 30>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 30>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 25>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 30>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 25>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 25>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page25 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [46 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=459, page=31, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=498, page=26, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 31>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 26>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 31>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 26>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 31>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 26>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page26 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [47 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=464, page=32, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=503, page=27, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 32>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 27>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 32>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 27>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 32>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 27>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page27 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [48 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=469, page=33, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=508, page=28, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 33>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 28>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 33>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 28>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 33>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 28>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page28 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [49 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=475, page=34, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=514, page=29, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 34>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 29>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 34>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 29>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 34>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 29>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page29 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [50 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=480, page=35, 597.50829pt x 845.0471pt>
+
+[50 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=519, page=30, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 35>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 35>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 30>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 35>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 30>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 30>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page30 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [51 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=485, page=36, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=524, page=31, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 36>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 31>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 36>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 31>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 36>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 31>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page31 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[52 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=490, page=37, 597.50829pt x 845.0471pt>
+ [52 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=529, page=32, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 37>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 37>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 32>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 37>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 32>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 32>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page32 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [53 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=495, page=38, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=534, page=33, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 38>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 33>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 38>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 33>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 38>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 33>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page33 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [54 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=500, page=39, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=539, page=34, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 39>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 34>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 39>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 34>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 39>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 34>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page34 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [55 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=506, page=40, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=545, page=35, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 40>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 35>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 40>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 35>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 40>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 35>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page35 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [56 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=516, page=41, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=550, page=36, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 41>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 36>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 41>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 36>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 41>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 36>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page36 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [57 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=521, page=42, 597.50829pt x 845.0471pt>
+
+[57 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=555, page=37, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 42>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 42>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 37>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 42>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 37>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 37>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page37 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [58 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=526, page=43, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=560, page=38, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 43>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 38>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 43>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 38>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 43>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 38>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page38 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[59 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=531, page=44, 597.50829pt x 845.0471pt>
+ [59 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=565, page=39, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 44>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 44>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 39>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 44>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 39>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 39>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page39 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [60 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=536, page=45, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=570, page=40, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 45>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 40>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 45>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 40>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 45>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 40>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page40 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [61 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=542, page=46, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=581, page=41, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 46>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 41>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 46>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 41>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 46>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 41>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page41 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [62 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=547, page=47, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=586, page=42, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 47>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 42>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 47>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 42>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 47>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 42>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page42 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [63 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=552, page=48, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=591, page=43, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 48>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 43>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 48>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 43>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 48>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 43>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page43 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [64 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=557, page=49, 597.50829pt x 845.0471pt>
+
+[64 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=596, page=44, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 49>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 49>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 44>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 49>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 44>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 44>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page44 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [65 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=562, page=50, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=601, page=45, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 50>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 45>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 50>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 45>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 50>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 45>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page45 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-
-[66 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=567, page=51, 597.50829pt x 845.0471pt>
+ [66 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=606, page=46, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 51>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 67
-.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 51>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 46>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 51>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 46>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 46>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page46 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [67 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=573, page=52, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=612, page=47, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 52>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 47>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 52>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 47>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 52>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 47>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page47 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [68 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=578, page=53, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=617, page=48, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 53>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 48>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 53>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 48>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 53>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 48>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page48 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [69 <./scriptmanual_en_3_1.pdf>]
-<scriptmanual_en_3_1.pdf, id=583, page=54, 597.50829pt x 845.0471pt>
+<scriptmanual_en_3_1.pdf, id=622, page=49, 597.50829pt x 845.0471pt>
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 54>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 49>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 54>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 49>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
-<use scriptmanual_en_3_1.pdf, page 54>
-Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 67
+<use scriptmanual_en_3_1.pdf, page 49>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page49 used on input line 71
 .
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [70 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=627, page=50, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 50>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 50>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 50>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page50 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+
+[71 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=632, page=51, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 51>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 51>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 51>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page51 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [72 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=637, page=52, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 52>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 52>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 52>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page52 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [73 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=643, page=53, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 53>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 53>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 53>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page53 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [74 <./scriptmanual_en_3_1.pdf>]
+<scriptmanual_en_3_1.pdf, id=648, page=54, 597.50829pt x 845.0471pt>
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 54>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 54>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: scriptmanual_en_3_1.pdf Graphic file (type pdf)
+<use scriptmanual_en_3_1.pdf, page 54>
+Package pdftex.def Info: scriptmanual_en_3_1.pdf , page54 used on input line 71
+.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [75 <./scriptmanual_en_3_1.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 69.
+(hyperref)                removing `\\' on input line 73.
 
-<VRep_manual.pdf, id=588, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=653, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf>
-Package pdftex.def Info: VRep_manual.pdf  used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf  used on input line 76.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf>
-Package pdftex.def Info: VRep_manual.pdf  used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf  used on input line 76.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<VRep_manual.pdf, id=591, page=1, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=656, page=1, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf, page 1>
-Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 76.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf, page 1>
-Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[71]
+[76]
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf, page 1>
-Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 1>
-Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
 <use VRep_manual.pdf, page 1>
-Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [72 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=629, page=2, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 2>
-Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 72.
+Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 2>
-Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 2>
-Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [73 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=636, page=3, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 3>
-Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 3>
-Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 3>
-Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [74 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=649, page=4, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 4>
-Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 4>
-Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 4>
-Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[75 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=655, page=5, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 5>
-Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 5>
-Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 5>
-Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [76 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=668, page=6, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 6>
-Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 6>
-Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 6>
-Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 72.
+<use VRep_manual.pdf, page 1>
+Package pdftex.def Info: VRep_manual.pdf , page1 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [77 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=674, page=7, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=694, page=2, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 7>
-Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 72.
+<use VRep_manual.pdf, page 2>
+Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 7>
-Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 72.
+<use VRep_manual.pdf, page 2>
+Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 7>
-Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 72.
+<use VRep_manual.pdf, page 2>
+Package pdftex.def Info: VRep_manual.pdf , page2 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-[78 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=680, page=8, 614.295pt x 794.97pt>
+ [78 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=700, page=3, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 8>
-Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 8>
-Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 72.
+<use VRep_manual.pdf, page 3>
+Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 8>
-Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 72.
+<use VRep_manual.pdf, page 3>
+Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 3>
+Package pdftex.def Info: VRep_manual.pdf , page3 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [79 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=687, page=9, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=714, page=4, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 9>
-Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 72.
+<use VRep_manual.pdf, page 4>
+Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 9>
-Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 72.
+<use VRep_manual.pdf, page 4>
+Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 9>
-Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 72.
+<use VRep_manual.pdf, page 4>
+Package pdftex.def Info: VRep_manual.pdf , page4 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [80 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=693, page=10, 614.295pt x 794.97pt>
+[80 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=720, page=5, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 10>
-Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 10>
-Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 72.
+<use VRep_manual.pdf, page 5>
+Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 10>
-Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-[81 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=699, page=11, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 11>
-Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 72.
+<use VRep_manual.pdf, page 5>
+Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 11>
-Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 72.
+<use VRep_manual.pdf, page 5>
+Package pdftex.def Info: VRep_manual.pdf , page5 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [81 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=733, page=6, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 6>
+Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 11>
-Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 72.
+<use VRep_manual.pdf, page 6>
+Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 6>
+Package pdftex.def Info: VRep_manual.pdf , page6 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [82 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=705, page=12, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=739, page=7, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 12>
-Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 72.
+<use VRep_manual.pdf, page 7>
+Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 12>
-Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 72.
+<use VRep_manual.pdf, page 7>
+Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 12>
-Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [83 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=711, page=13, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 13>
-Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 13>
-Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 13>
-Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 72.
+<use VRep_manual.pdf, page 7>
+Package pdftex.def Info: VRep_manual.pdf , page7 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[84 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=717, page=14, 614.295pt x 794.97pt>
+[83 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=745, page=8, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 14>
-Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 72.
+<use VRep_manual.pdf, page 8>
+Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 14>
-Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 72.
+<use VRep_manual.pdf, page 8>
+Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 14>
-Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 72.
+<use VRep_manual.pdf, page 8>
+Package pdftex.def Info: VRep_manual.pdf , page8 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [84 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=751, page=9, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 9>
+Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 9>
+Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 9>
+Package pdftex.def Info: VRep_manual.pdf , page9 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [85 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=724, page=15, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=758, page=10, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 15>
-Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 72.
+<use VRep_manual.pdf, page 10>
+Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 15>
-Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 72.
+<use VRep_manual.pdf, page 10>
+Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 15>
-Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [86 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=730, page=16, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 16>
-Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 16>
-Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 16>
-Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 72.
+<use VRep_manual.pdf, page 10>
+Package pdftex.def Info: VRep_manual.pdf , page10 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[87 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=736, page=17, 614.295pt x 794.97pt>
+[86 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=764, page=11, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 17>
-Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 72.
+<use VRep_manual.pdf, page 11>
+Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 17>
-Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 72.
+<use VRep_manual.pdf, page 11>
+Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 17>
-Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 72.
+<use VRep_manual.pdf, page 11>
+Package pdftex.def Info: VRep_manual.pdf , page11 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [87 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=770, page=12, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 12>
+Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 12>
+Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 12>
+Package pdftex.def Info: VRep_manual.pdf , page12 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [88 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=742, page=18, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=776, page=13, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 18>
-Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 72.
+<use VRep_manual.pdf, page 13>
+Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 18>
-Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 72.
+<use VRep_manual.pdf, page 13>
+Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 18>
-Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [89 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=748, page=19, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 19>
-Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 19>
-Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 19>
-Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 72.
+<use VRep_manual.pdf, page 13>
+Package pdftex.def Info: VRep_manual.pdf , page13 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[90 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=754, page=20, 614.295pt x 794.97pt>
+[89 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=782, page=14, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 20>
-Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 72.
+<use VRep_manual.pdf, page 14>
+Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 20>
-Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 72.
+<use VRep_manual.pdf, page 14>
+Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 20>
-Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 72.
+<use VRep_manual.pdf, page 14>
+Package pdftex.def Info: VRep_manual.pdf , page14 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [90 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=788, page=15, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 15>
+Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 15>
+Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 15>
+Package pdftex.def Info: VRep_manual.pdf , page15 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [91 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=761, page=21, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=795, page=16, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 21>
-Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 72.
+<use VRep_manual.pdf, page 16>
+Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 21>
-Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 72.
+<use VRep_manual.pdf, page 16>
+Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 21>
-Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [92 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=767, page=22, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 22>
-Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 22>
-Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 22>
-Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 72.
+<use VRep_manual.pdf, page 16>
+Package pdftex.def Info: VRep_manual.pdf , page16 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[93 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=773, page=23, 614.295pt x 794.97pt>
+[92 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=801, page=17, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 23>
-Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 72.
+<use VRep_manual.pdf, page 17>
+Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 23>
-Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 72.
+<use VRep_manual.pdf, page 17>
+Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 23>
-Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 72.
+<use VRep_manual.pdf, page 17>
+Package pdftex.def Info: VRep_manual.pdf , page17 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [93 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=807, page=18, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 18>
+Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 18>
+Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 18>
+Package pdftex.def Info: VRep_manual.pdf , page18 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [94 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=779, page=24, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=813, page=19, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 24>
-Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 72.
+<use VRep_manual.pdf, page 19>
+Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 24>
-Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 72.
+<use VRep_manual.pdf, page 19>
+Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 24>
-Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [95 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=785, page=25, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 25>
-Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 25>
-Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 25>
-Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 72.
+<use VRep_manual.pdf, page 19>
+Package pdftex.def Info: VRep_manual.pdf , page19 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[96 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=791, page=26, 614.295pt x 794.97pt>
+[95 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=819, page=20, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 26>
-Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 72.
+<use VRep_manual.pdf, page 20>
+Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 26>
-Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 72.
+<use VRep_manual.pdf, page 20>
+Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 26>
-Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 72.
+<use VRep_manual.pdf, page 20>
+Package pdftex.def Info: VRep_manual.pdf , page20 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [96 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=825, page=21, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 21>
+Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 21>
+Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 21>
+Package pdftex.def Info: VRep_manual.pdf , page21 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [97 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=798, page=27, 614.295pt x 794.97pt>
+<VRep_manual.pdf, id=832, page=22, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 27>
-Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 72.
+<use VRep_manual.pdf, page 22>
+Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 27>
-Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 72.
+<use VRep_manual.pdf, page 22>
+Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 27>
-Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [98 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=804, page=28, 614.295pt x 794.97pt>
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 28>
-Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 28>
-Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 72.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 28>
-Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 72.
+<use VRep_manual.pdf, page 22>
+Package pdftex.def Info: VRep_manual.pdf , page22 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
-[99 <./VRep_manual.pdf>]
-<VRep_manual.pdf, id=810, page=29, 614.295pt x 794.97pt>
+[98 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=838, page=23, 614.295pt x 794.97pt>
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 29>
-Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 72.
+<use VRep_manual.pdf, page 23>
+Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 29>
-Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 72.
+<use VRep_manual.pdf, page 23>
+Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: VRep_manual.pdf Graphic file (type pdf)
-<use VRep_manual.pdf, page 29>
-Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 72.
+<use VRep_manual.pdf, page 23>
+Package pdftex.def Info: VRep_manual.pdf , page23 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [99 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=844, page=24, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 24>
+Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 24>
+Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 24>
+Package pdftex.def Info: VRep_manual.pdf , page24 used on input line 76.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [100 <./VRep_manual.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+<VRep_manual.pdf, id=850, page=25, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 25>
+Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 25>
+Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 25>
+Package pdftex.def Info: VRep_manual.pdf , page25 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[101 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=856, page=26, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 26>
+Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 26>
+Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 26>
+Package pdftex.def Info: VRep_manual.pdf , page26 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [102 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=862, page=27, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 27>
+Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 27>
+Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 27>
+Package pdftex.def Info: VRep_manual.pdf , page27 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [103 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=869, page=28, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 28>
+Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 28>
+Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 28>
+Package pdftex.def Info: VRep_manual.pdf , page28 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[104 <./VRep_manual.pdf>]
+<VRep_manual.pdf, id=875, page=29, 614.295pt x 794.97pt>
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 29>
+Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 29>
+Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: VRep_manual.pdf Graphic file (type pdf)
+<use VRep_manual.pdf, page 29>
+Package pdftex.def Info: VRep_manual.pdf , page29 used on input line 76.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [105 <./VRep_manual.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (root.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `root.out' has not changed.
-(rerunfilecheck)             Checksum: BA31895EF5F2102A60427208C4CF90D5;2363.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+(rerunfilecheck)             Checksum: 1DA3A8B99C122750AEF1A64E17EF6CEC;2457.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 19428 strings out of 493306
- 357358 string characters out of 3136390
- 425571 words of memory out of 3000000
- 22432 multiletter control sequences out of 15000+200000
+ 19454 strings out of 493306
+ 357977 string characters out of 3136390
+ 425652 words of memory out of 3000000
+ 22450 multiletter control sequences out of 15000+200000
  9386 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,54p,774b,635s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,18n,54p,774b,637s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 home/phil/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></h
@@ -2689,9 +2767,9 @@ l/fonts/type1/urw/avantgar/uagko8a.pfb></home/phil/.miktex/texmfs/install/fonts
 /type1/urw/courier/ucrb8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/ur
 w/courier/ucrr8a.pfb></home/phil/.miktex/texmfs/install/fonts/type1/urw/courier
 /ucrro8a.pfb>
-Output written on root.pdf (100 pages, 3051989 bytes).
+Output written on root.pdf (105 pages, 3129266 bytes).
 PDF statistics:
- 885 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 951 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 776 words of extra memory for PDF output out of 10000 (max. 10000000)
 

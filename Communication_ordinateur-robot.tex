@@ -19,7 +19,7 @@ Cependant, dans le cas de l'implémentation avec le robot Jaco, une API, \textit
 Dans le cas du Jaco, cette API permet l'utilisation de différentes fonctions rédigées en c++.
 Ceci cause problème lorsqu'un développeur tente d'utiliser un programme écrit en Matlab ou en python pour commander les articulations du robots.
 La solution à cet inconvénient est d'initier une instance Matlab via un un script c++.
-Cette instance Matlab pourra ensuite exécuter des commandes que le script c++ lui envoi, tel que l’exécution de fonctions Matlab.
+Cette instance Matlab pourra ensuite exécuter des commandes que le script c++ lui envoi, telles que l’exécution de fonctions Matlab.
 Par la suite, il suffit d'utiliser directement l'API de kinova pour envoyer des commandes.
 
 \subsection{Exemple d'implémentation}
@@ -34,7 +34,7 @@ Un projet VisualStudio peut être créé en cliquant sur \textit{file/new/projec
 Ensuite, sélectionner \textit{Visual c++} dans le menu gauche de la nouvelle fenêtre et cliquer sur \textit{Empty Project}.
 Dans le bas de la fenêtre, il est possible de nommer le projet et sélectionner un répertoire.
 Le répertoire choisi sera référé comme étant le \textit{workspace} ou \textit{project direcotry} dans la pluspart des tutoriels en anglais.
-Tout ficher placé dans ce répertoire fera partie du projet et pourra être référé dans les scripts.
+Un ficher placé dans ce répertoire fera partie du projet et pourra être référé dans les scripts.
 
 \subsubsection{Définition du fichier principal du projet}
 Pour être en mesure d'écrire le script, un fichier source doit être créé.
@@ -47,7 +47,8 @@ Pour être en mesure d'envoyer des commandes avec un joystick, la librairie \hre
 }{SDL2} doit être téléchargée.
 Bien sûr, si le projet ne requiert pas de contrôleur joystick, cette étape n'est pas nécessaire.
 Après avoir décompressé le dossier téléchargé, lire le fichier VisualC.html pour les instructions sur la démarche à suivre pour utiliser la libraire (en particulier la partie parlant de l'utilisation avec Visual Studio).
-Les détails de l'utilisation pratique de cette librairie seront couverts dans une section subséquente.
+Les détails de l'utilisation pratique de cette librairie sont disponibles sur le site web fourni.
+Un exemple de code utilisant la librairie, ainsi que tous les modules mentionnés dans cette section, est fourni en annexe A.
 
 \subsubsection{Lien avec Matlab}
 
