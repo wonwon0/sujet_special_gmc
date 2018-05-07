@@ -31,7 +31,7 @@ La Figure \ref{fig:gazebo_jaco} représente l'interface du simulateur Gazebo lor
     \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.25]{gazebo_jaco.png}
   \end{tabular}
  \end{center}
-\caption{Interface du simulateur Gazebo avec le robot Jaco configuré}
+\caption{Interface du simulateur Gazebo avec le robot Jaco configuré.}
  \label{fig:gazebo_jaco}
 \end{figure}
 
@@ -95,13 +95,13 @@ Le répertoire git-hub se nommant \textit{jaco\_gazebo\_tools}, présent dans le
 Ces scripts requierent l'installation du module python \textit{pygame} permettant l'utilisation d'un joystick.
 Pour ce faire, il faut seulement entrer la commande:
 \begin{itemize}
-\item pip install --user pyagme
+\item pip install --user pygame
 \end{itemize}
 Après l'ouverture d'un invité de commande dans le répertoire \textit{jaco\_gazebo\_tools}, la simulation peut être lancée avec la commande suivante:
 \begin{itemize}
 \item sh launch\_jaco\_simulation.sh
 \end{itemize}
-Cette commande lance une simulation du bras jaco dans Gazebo.
+Cette commande lance une simulation du bras Jaco dans Gazebo.
 Il est important de savoir que ce script ne fonctionne que si un joystick est connecté à l'ordinateur.
 Pour controler un bras jaco réel, la commande est la suivante:
 
@@ -114,7 +114,7 @@ Il est possible que le modèle du bras Jaco utilisé ne soit pas exactement le m
 \item joint\_states\_listener\_real\_jaco.py
 \item jaco\_joints\_client.py
 \end{itemize}
-Ces scripts ont été créés pour le modèle de bras Jaco\textit{j2n6s300}. Pour plus d'information, il est possible de visiter le dépot github de Kinova:
+Ces scripts ont été créés pour le modèle de bras Jaco \textit{j2n6s300}. Pour plus d'information, il est possible de visiter le dépot github de Kinova:
 \begin{itemize}
 \item \url{https://github.com/Kinovarobotics/kinova-ros}
 \end{itemize}
